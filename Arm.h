@@ -7,6 +7,6 @@ public:
 	Arm(void);
 	~Arm(void);
 	int powerConsumed(int speed);
-	void addQuantity(int quantity);
+	bool addQuantity(int quantity);
 };
 

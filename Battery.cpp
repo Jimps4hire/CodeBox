@@ -13,7 +13,8 @@ Battery::~Battery(void)
 }
 
 
-void Battery::addQuantity(int p_quantity)
+bool Battery::addQuantity(int p_quantity)
 {
 	quantity += p_quantity;
+	return true;
 }

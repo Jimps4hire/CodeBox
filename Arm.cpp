@@ -12,8 +12,9 @@ Arm::~Arm(void)
 }
 
 
-void Arm::addQuantity(int p_quantity)
+bool Arm::addQuantity(int p_quantity)
 {
 	quantity += p_quantity;
+	return true;
 }
 

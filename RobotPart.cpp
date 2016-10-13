@@ -48,7 +48,8 @@ RobotPart* RobotPart::createPart(string name)
 }
 
 
-void RobotPart::addQuantity(int p_quantity)
+bool RobotPart::addQuantity(int p_quantity)
 {
 	quantity += p_quantity;
+	return true;
 }

@@ -18,6 +18,6 @@ public:
 	RobotPart(void);
 	~RobotPart(void);
 	static RobotPart* createPart(string name);
-	virtual void addQuantity(int quantity);
+	virtual bool addQuantity(int quantity);
 };
 

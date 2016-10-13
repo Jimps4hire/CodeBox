@@ -1,18 +1,18 @@
-﻿Build started 10/12/2016 10:19:35 PM.
+﻿Build started 10/12/2016 11:05:35 PM.
      1>Project "C:\User\Jimmy\School Note\VisualStudio\CSE1325\Homework_5\Homework_5\Homework_5.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\Homework_5.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\Homework_5.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Homework_5.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Arm.cpp Battery.cpp Head.cpp Locomotor.cpp RobotPart.cpp Torso.cpp
-         Arm.cpp
+         RobotPart.cpp
+         Battery.cpp
          Generating Code...
          Skipping... (no relevant changes detected)
          Torso.cpp
          Locomotor.cpp
          Head.cpp
-         Battery.cpp
-         RobotPart.cpp
+         Arm.cpp
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -43,4 +43,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.58
+Time Elapsed 00:00:00.75

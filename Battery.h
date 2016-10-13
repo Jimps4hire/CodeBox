@@ -10,6 +10,6 @@ private:
 public:
 	Battery(void);
 	~Battery(void);
-	void addQuantity(int quantity);
+	bool addQuantity(int quantity);
 };
 

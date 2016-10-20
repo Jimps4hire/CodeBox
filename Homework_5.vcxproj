@@ -20,6 +20,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -79,15 +80,22 @@
     <ClInclude Include="Battery.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="Head.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Locomotor.h" />
+    <ClInclude Include="OrderItem.h" />
     <ClInclude Include="Product.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="RobotModel.h" />
     <ClInclude Include="RobotPart.h" />
+    <ClInclude Include="RobotShop.h" />
+    <ClInclude Include="Sales.h" />
     <ClInclude Include="SalesAssoc.h" />
     <ClInclude Include="SalesOrder.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestCase.h" />
     <ClInclude Include="Torso.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Arm.cpp" />
@@ -95,17 +103,31 @@
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Head.cpp" />
     <ClCompile Include="Homework_5.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Locomotor.cpp" />
+    <ClCompile Include="OrderItem.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="RobotModel.cpp" />
     <ClCompile Include="RobotPart.cpp" />
+    <ClCompile Include="RobotShop.cpp" />
+    <ClCompile Include="Sales.cpp" />
     <ClCompile Include="SalesAssoc.cpp" />
     <ClCompile Include="SalesOrder.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TestCase.cpp" />
     <ClCompile Include="Torso.cpp" />
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Homework_5.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
